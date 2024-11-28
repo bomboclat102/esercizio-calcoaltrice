@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+<title> calcolatrice </title>
+
+<body>
+<h2><b>calcolatrice</b></h2>
+
+<script src="script.js"></script>
+
+<table>
+<tr> <td> operando 1 : </td> <td> <input type="text" id="op1" size="10"> </td> </tr>
+<tr> <td> operando 2 :</td> <td> <input type="text" id="op2" size="10"> </td> </tr>
+</table>
+
+<input type="radio" id="somma" name="calc" value="SOMMA">
+<label for="somma">somma</label><br>
+<input type="radio" id="sottrazione" name="calc" value="SOTTRAZIONE">
+<label for="sottrazione">sottrazione</label><br>
+<input type="radio" id="moltiplicazione" name="calc" value="MOLTIPLICAZIONE">
+<label for="moltiplicazione">moltiplicazione</label>
+<br><input type="radio" id="divisione" name="calc" value="DIVISIONE">
+<label for="divisione">divisione</label>
+<br><input type="button" onclick="risultato()" value="RISULTATO"> <p id="ris"></p>
+
+</html>
